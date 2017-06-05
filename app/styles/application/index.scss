@@ -1,0 +1,5 @@
+// styles/application/index.scss
+// Combines all of the style files in the application styles folder to be compiled into the
+// main app.scss file for export during build. The application styles folder applies to the
+// styling of components that are static components throughout the whole application
+@import "header-sidebar";

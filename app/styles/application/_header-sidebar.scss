@@ -1,0 +1,33 @@
+// styles/application/_header-sidebar.scss
+// This file contains the stylings for the static navigation component on the application route.
+// This component should appear as a sidebar when on a full screen, but be a top banner instead
+// when the user is on a mobile or tablet screen. In both cases, the banner should remain fixed
+// and constantly visible
+
+#application-container {
+  .header-sidebar {
+    
+  }
+}
+
+h2 {
+  color: blue;
+}
+
+/**
+ * Styling specifically for tablets
+ */
+@media only screen and (max-device-width: 720px) {
+  h2 {
+    color: green;
+  }
+}
+
+/**
+ * Styling specifically for mobile
+ */
+@media only screen and (max-device-width: 480px) {
+  h2 {
+    color: red;
+  }
+}
